@@ -1,0 +1,4 @@
+MODEL_NAME,IMG_SIZE,mean_iou_all,mean_iou_crack_only,mean_dice_crack_only,pixel_pr_auc,no_crack_false_positive_rate,no_crack_false_positive_count,ckpt
+unetplusplus_efficientnetb3,448,0.506005,0.58069,0.721545,0.808927,0.027523,6,unetplusplus_efficientnetb3_best.pt
+deeplabv3plus_efficientnetb3,448,0.499137,0.572808,0.713919,0.802646,0.004587,1,deeplabv3plus_efficientnetb3_best_20260222_102303.pt
+unet_efficientnetb3,256,0.373325,0.428427,0.577456,0.715222,0.009174,2,unet_efficientnetb3_best_ep029_20260219_205815.pt

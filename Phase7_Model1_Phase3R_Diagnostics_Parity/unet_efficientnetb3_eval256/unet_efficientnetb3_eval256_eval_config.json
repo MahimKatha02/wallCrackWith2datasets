@@ -1,0 +1,18 @@
+{
+  "run_name": "unet_efficientnetb3_eval256",
+  "img_size": 256,
+  "threshold": 0.5,
+  "chosen_encoder": "timm-efficientnet-b3",
+  "checkpoint_path": "/kaggle/input/datasets/arman00p/model-1-checkpoints-unet-efficientnet-b3/output/SAVED_MODELS/unet_efficientnetb3_best_ep029_20260219_205815.pt",
+  "device": "cpu",
+  "n_total": 1695,
+  "n_crack": 1477,
+  "n_no_crack": 218,
+  "mean_iou_all_empty_aware": 0.5006936590354114,
+  "mean_iou_crack_only": 0.42970599327354264,
+  "mean_dice_crack_only": 0.578676965934757,
+  "mean_pixel_acc_all": 0.9667322119428696,
+  "no_crack_fp_count": 4,
+  "no_crack_fp_rate": 0.01834862385321101,
+  "note": "Part 2 will generate PR curve, plots, overlays, galleries, detections jsonl."
+}

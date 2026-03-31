@@ -1,0 +1,4 @@
+MODEL_NAME,IMG_SIZE,mean_iou_all,mean_iou_crack_only,mean_dice_crack_only,pixel_pr_auc,no_crack_false_positive_rate,no_crack_false_positive_count,ckpt
+unet_efficientnetb3,448,0.5018995404243469,0.43921443819999695,0.5826430916786194,0.61685620355177,0.07339449541284404,16,/kaggle/input/datasets/arman00p/model-1-checkpoints-unet-efficientnet-b3/output/SAVED_MODELS/unet_efficientnetb3_best_ep029_20260219_205815.pt
+unetplusplus_efficientnetb3,448,0.4574344754219055,0.3949569761753082,0.5317783355712891,0.39083736550575987,0.11926605504587157,26,/kaggle/input/datasets/arman00p/model-3-checkpoints-datasetunet-eff-net-b3/unetplusplus_efficientnetb3_best.pt
+deeplabv3plus_efficientnetb3,448,0.4413991868495941,0.38332539796829224,0.5251285433769226,0.4018468016898094,0.1651376146788991,36,/kaggle/input/datasets/arman00p/model-2-checkpointsdeeplabv3plus-efficientnet-b3/deeplabv3plus_efficientnetb3_pt files/deeplabv3plus_efficientnetb3_best_20260222_102303.pt

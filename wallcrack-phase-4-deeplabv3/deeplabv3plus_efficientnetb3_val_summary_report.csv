@@ -1,0 +1,2 @@
+MODEL_NAME,RUN_NAME,IMG_SIZE,BATCH_SIZE,SEED,EVAL_THR,MIN_COMPONENT_AREA,n_val,n_gt_crack,n_gt_nocrack,mean_iou_all,mean_iou_crack_only,median_iou_crack_only,mean_dice_crack_only,no_crack_false_positive_rate,no_crack_false_positive_count,mean_iou_emptyaware_all
+deeplabv3plus_efficientnetb3,seg_deeplabv3p_proto1_448,448,12,7,0.5,30,1695,1477,218,0.6271793235787919,0.572829352346684,0.5708751678466797,0.7139410126037328,0.0,0,0.6277692940507684

@@ -1,0 +1,32 @@
+{
+  "model1_unet": {
+    "best_crack_iou_threshold": 0.9,
+    "best_crack_iou_value": 0.568641596904121,
+    "best_crack_dice_threshold": 0.9,
+    "best_crack_dice_value": 0.7104544583104387,
+    "risk_controlled_threshold": 0.9,
+    "risk_controlled_iou": 0.568641596904121,
+    "risk_controlled_fp_rate": 0.01834862385321101,
+    "rule": "choose minimum no-crack FP rate among thresholds with crack-only IoU >= 98% of best crack-only IoU"
+  },
+  "model2_deeplabv3plus": {
+    "best_crack_iou_threshold": 0.4,
+    "best_crack_iou_value": 0.5730325444459554,
+    "best_crack_dice_threshold": 0.4,
+    "best_crack_dice_value": 0.7142590736831291,
+    "risk_controlled_threshold": 0.5,
+    "risk_controlled_iou": 0.572807884519724,
+    "risk_controlled_fp_rate": 0.0045871559633027525,
+    "rule": "choose minimum no-crack FP rate among thresholds with crack-only IoU >= 98% of best crack-only IoU"
+  },
+  "model3_unetplusplus": {
+    "best_crack_iou_threshold": 0.4,
+    "best_crack_iou_value": 0.580701103959335,
+    "best_crack_dice_threshold": 0.4,
+    "best_crack_dice_value": 0.7216068888173035,
+    "risk_controlled_threshold": 0.5,
+    "risk_controlled_iou": 0.5806895364624721,
+    "risk_controlled_fp_rate": 0.027522935779816515,
+    "rule": "choose minimum no-crack FP rate among thresholds with crack-only IoU >= 98% of best crack-only IoU"
+  }
+}

@@ -1,0 +1,2 @@
+n_val,n_gt_crack,n_gt_nocrack,mean_iou_all,mean_iou_crack_only,median_iou_crack_only,mean_dice_crack_only,no_crack_false_positive_rate,no_crack_false_positive_count,no_crack_true_negative_count,mean_iou_emptyaware_all
+1695,1477,218,0.5373836215298355,0.6166995521280103,0.6427787933011373,0.753564757387785,0.03669724770642202,8,210,0.6612774268395702

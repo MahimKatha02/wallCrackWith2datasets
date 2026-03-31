@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-03-30T17:29:25Z",
+  "seed": 7,
+  "img_size_default": 448,
+  "batch_size_default": 12,
+  "lr_default": 0.0002,
+  "weight_decay_default": 0.0001,
+  "early_stopping_patience_default": 8,
+  "threshold_baseline_default": 0.5,
+  "min_component_area_detection_only": 30,
+  "precision": "AMP (if CUDA)",
+  "memory_format": "channels_last (if CUDA)",
+  "matmul_precision": "high (if supported)",
+  "notes": [
+    "All comparisons must use the same val_split.csv (hash recorded).",
+    "Report both overall metrics and crack-only metrics due to extreme pixel imbalance.",
+    "Empty-aware IoU: if GT empty and Pred empty => IoU=1, else IoU=|A∩B|/|A∪B|."
+  ]
+}

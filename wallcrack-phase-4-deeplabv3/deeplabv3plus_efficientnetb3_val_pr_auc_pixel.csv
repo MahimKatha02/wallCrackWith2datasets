@@ -1,0 +1,2 @@
+MODEL_NAME,pixel_pr_auc,sampled_pixels
+deeplabv3plus_efficientnetb3,0.8727826848649916,300000

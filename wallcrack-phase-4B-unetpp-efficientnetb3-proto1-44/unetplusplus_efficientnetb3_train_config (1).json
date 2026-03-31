@@ -1,0 +1,19 @@
+{
+  "SEED": 7,
+  "IMG_SIZE": 448,
+  "BATCH_SIZE": 12,
+  "LR": 0.0002,
+  "WEIGHT_DECAY": 0.0001,
+  "EPOCHS": 40,
+  "EARLY_STOPPING_PATIENCE": 8,
+  "LOSS_WEIGHTS": {
+    "W_BCE": 1.0,
+    "W_DICE": 1.0,
+    "W_EDGE": 0.5
+  },
+  "MODEL_NAME": "unetplusplus_efficientnetb3",
+  "RUN_NAME": "seg_unetpp_proto1_448",
+  "train_split_csv": "/kaggle/input/datasets/arman00p/phase-3-csv/train_split.csv",
+  "val_split_csv": "/kaggle/input/datasets/arman00p/phase-3-csv/val_split.csv",
+  "seg_root": "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset"
+}

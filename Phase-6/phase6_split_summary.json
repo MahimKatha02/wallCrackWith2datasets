@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-03-30T17:29:25Z",
+  "train_split_path": "/kaggle/input/datasets/arman00p/phase-3-csv/train_split.csv",
+  "val_split_path": "/kaggle/input/datasets/arman00p/phase-3-csv/val_split.csv",
+  "train_split_sha256": "9c02ef25f7cd668418a76fd556d0a8886258eaa7f6418f1859d6682fb8e2065f",
+  "val_split_sha256": "e77305c80edf1a524274874537ef034d081a5047da0f23354cd94a85f73e8ccd",
+  "train": {
+    "name": "train",
+    "n_samples": 9603,
+    "columns": [
+      "stem",
+      "image_path",
+      "mask_path",
+      "source",
+      "empty_mask",
+      "has_crack"
+    ],
+    "crack_count": 8367,
+    "no_crack_count": 1236,
+    "crack_rule": "has_crack = has_crack",
+    "source_hint": {
+      "example_image_paths": [
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/forest_083.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/CRACK500_20160328_151728_1281_361.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/CRACK500_20160222_115858_641_361.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/Rissbilder_for_Florian_9S6A2908_1786_725_3962_3067.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/forest_085.jpg"
+      ],
+      "mentions_sdnet": true,
+      "mentions_masks": false
+    }
+  },
+  "val": {
+    "name": "val",
+    "n_samples": 1695,
+    "columns": [
+      "stem",
+      "image_path",
+      "mask_path",
+      "source",
+      "empty_mask",
+      "has_crack"
+    ],
+    "crack_count": 1477,
+    "no_crack_count": 218,
+    "crack_rule": "has_crack = has_crack",
+    "source_hint": {
+      "example_image_paths": [
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/Volker_DSC01686_242_386_1564_1468.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/GAPS384_train_1166_541_641.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/cracktree200_6243.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/Rissbilder_for_Florian_9S6A3121_813_2194_2441_3123.jpg",
+        "/kaggle/input/datasets/lakshaymiddha/crack-segmentation-dataset/crack_segmentation_dataset/images/noncrack_noncrack_concrete_wall_23_9.jpg.jpg"
+      ],
+      "mentions_sdnet": true,
+      "mentions_masks": false
+    }
+  }
+}

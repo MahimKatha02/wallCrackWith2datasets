@@ -1,0 +1,2 @@
+MODEL_NAME,pixel_pr_auc,sampled_pixels
+unetplusplus_efficientnetb3,0.8802765704489037,300000
