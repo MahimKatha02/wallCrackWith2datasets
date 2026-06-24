@@ -21,7 +21,7 @@ The repository contains exploratory data analysis, segmentation experiments, mod
 **Mahim Chowdhury**
 GitHub: https://github.com/MahimKatha02
 
-**Arafat Barman**
+**Mohammad Akibul Hasan Arman (Group Member/ Collaborator)**
 GitHub: https://github.com/abarman079
 
 ### Project Type
